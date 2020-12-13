@@ -1,0 +1,33 @@
+.container {
+    margin: 20px;
+}
+
+.h1 {
+    color: teal;
+    font-weight: bold;
+    text-decoration : none
+}
+/* 
+.navbar-brand {
+    background-color: teal;
+    width: max-content;
+} */
+
+#briefcase {
+    color: saddlebrown
+}
+
+#file {
+    color: turquoise
+}
+
+#laptop {
+    color: hotpink
+}
+
+#ninja {
+    color:rebeccapurple
+}
+
+
+

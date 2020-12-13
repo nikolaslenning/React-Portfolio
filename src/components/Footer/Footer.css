@@ -1,0 +1,10 @@
+.card-class {
+    background-color: rgb(30, 39, 39);
+    border-top: 5px solid teal;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    padding: 0;
+}

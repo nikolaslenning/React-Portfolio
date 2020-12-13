@@ -1,6 +1,7 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import resume from "../../assets/resume.pdf"
 import "./Header.css";
 
 function Header(props) {
@@ -35,16 +36,7 @@ function Header(props) {
                         <Nav.Link className="nav-item nav-link active" href="/"><i className="fas fa-user-ninja" id="ninja" ></i>  About</Nav.Link>
                         <Nav.Link className="nav-item nav-link passive" href="/portfolio"><i className="fas fa-briefcase" id="briefcase"></i>  Portfolio</Nav.Link>
                         <Nav.Link className="nav-item nav-link passive" href="/skills"><i className="fas fa-laptop-code" id="laptop"></i>  Skills<span className="sr-only">(current)</span></Nav.Link>
-                        <Nav.Link className="nav-item nav-link passive" href="./images/resume.pdf"><i className="fas fa-file-alt" id="file"></i>  Resume</Nav.Link>
-                        {/* <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link> */}
-                        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown> */}
+                        <Nav.Link className="nav-item nav-link passive" href={ resume }><i className="fas fa-file-alt" id="file"></i>  Resume</Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>

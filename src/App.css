@@ -1,0 +1,42 @@
+* {
+    font-family: serif;
+    font-size: 1.1rem;
+    /* font-size: calc(1em + .03vw + .03vh); */
+    /* Font size source https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/#:~:text=What%20Are%20the%20Bootstrap%204,will%20be%20increased%2Fdecreased%20automatically. */
+}
+
+.a-class {
+    width: auto;
+    max-width: 400px;
+}
+
+body {
+    background-image: url("./assets/teal.jpg");
+    background-position: center;
+    /* background-repeat: repeat; */
+}
+
+.container {
+    margin: 20px;
+}
+
+.homeIMG {
+    max-width: 50%;
+    height: auto;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#img-text {
+    width: 100px;
+}
+
+.page-title {
+    color: black;
+    font-weight: bold;
+}
+

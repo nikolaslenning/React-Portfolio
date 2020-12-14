@@ -28,7 +28,10 @@
 }
 
 .social-links {
-    display: inline-block;
-    font-size: 2.5rem;
+    display: inline-flex;
     padding: 10px;
+}
+
+.icon {
+    font-size: 2.5rem !important;
 }

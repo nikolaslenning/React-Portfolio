@@ -27,7 +27,7 @@ function Header(props) {
             </nav> */}
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand>
-                    <Link to="/"><h1 className="h1">Nikolas Lenning</h1></Link>
+                    <Link to="/"><h1 className="nameLink">Nikolas Lenning</h1></Link>
                     <h4>Full Stack Developer</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

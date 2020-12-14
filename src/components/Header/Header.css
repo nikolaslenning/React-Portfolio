@@ -1,17 +1,15 @@
+a:link {
+    text-decoration: none;
+}
+
 .container {
     margin: 20px;
 }
 
-.h1 {
+.nameLink {
     color: teal;
     font-weight: bold;
-    text-decoration : none
 }
-/* 
-.navbar-brand {
-    background-color: teal;
-    width: max-content;
-} */
 
 #briefcase {
     color: saddlebrown
@@ -26,8 +24,6 @@
 }
 
 #ninja {
-    color:rebeccapurple
+    color: rebeccapurple
 }
-
-
 

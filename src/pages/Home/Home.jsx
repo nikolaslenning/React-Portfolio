@@ -16,7 +16,7 @@ const Home = (props) => {
                     support myself through the illustrious job of antisocial bartender. Don't worry, the antisocial just
                     ads a layer of mystery.
                 </p>
-                    <div className=" pl-0 p-1">
+                    <div className="pull-left pl-0 p-1">
                         <div className="text-center rounded-0">
                             <ul className="social-icons">
                                 <p className="social-links">

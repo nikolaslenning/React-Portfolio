@@ -32,7 +32,7 @@ function Header(props) {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto ml-auto float-right">
+                    <Nav className=" ml-auto float-right">
                         <Nav.Link className="nav-item nav-link active" href="/"><i className="fas fa-user-ninja" id="ninja" ></i>  About</Nav.Link>
                         <Nav.Link className="nav-item nav-link passive" href="/portfolio"><i className="fas fa-briefcase" id="briefcase"></i>  Portfolio</Nav.Link>
                         <Nav.Link className="nav-item nav-link passive" href="/skills"><i className="fas fa-laptop-code" id="laptop"></i>  Skills<span className="sr-only">(current)</span></Nav.Link>

@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home"
 import Skills from "./pages/Skills"
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/Portfolio/Portfolio"
 import './App.css';
 
 function App() {

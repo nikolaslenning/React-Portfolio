@@ -1,0 +1,43 @@
+/* Flip Card CSS  3dtransforms.desandro.com/card-flip*/
+
+.scene {
+    width: 200px;
+    height: 520px;
+    perspective: 500px;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    display: block;
+    cursor: pointer;
+}
+
+.card__face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card__face--front {
+    /* background: lightgray; */
+    height: auto;
+}
+
+.card__face--back {
+    background: white;
+    transform: rotateY( 180deg);
+}
+
+.card.is-flipped {
+    transform: rotateY(180deg);
+}
+
+/* responsive text sizing */

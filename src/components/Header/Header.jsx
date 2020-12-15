@@ -27,16 +27,16 @@ function Header(props) {
             </nav> */}
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand>
-                    <Link to="/"><h1 className="nameLink">Nikolas Lenning</h1></Link>
+                    <Link to="/about"><h1 className="nameLink">Nikolas Lenning</h1></Link>
                     <h4>Full Stack Developer</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className=" ml-auto float-right">
-                        <Nav.Link className="nav-item nav-link active" href="/"><i className="fas fa-user-ninja" id="ninja" ></i>  About</Nav.Link>
-                        <Nav.Link className="nav-item nav-link passive" href="/portfolio"><i className="fas fa-briefcase" id="briefcase"></i>  Portfolio</Nav.Link>
-                        <Nav.Link className="nav-item nav-link passive" href="/skills"><i className="fas fa-laptop-code" id="laptop"></i>  Skills<span className="sr-only">(current)</span></Nav.Link>
-                        <Nav.Link className="nav-item nav-link passive" href={ resume }><i className="fas fa-file-alt" id="file"></i>  Resume</Nav.Link>
+                        <Nav.Link className={window.location.pathname === '/about' ? "nav-item nav-link active" : "nav-item nav-link"} href="/about"><i className="fas fa-user-ninja" id="ninja" ></i>  About</Nav.Link>
+                        <Nav.Link className={window.location.pathname === '/portfolio' ? "nav-item nav-link active" : "nav-item nav-link"} href="/portfolio"><i className="fas fa-briefcase" id="briefcase"></i>  Portfolio</Nav.Link>
+                        <Nav.Link className={window.location.pathname === '/skills' ? "nav-item nav-link active" : "nav-item nav-link"} href="/skills"><i className="fas fa-laptop-code" id="laptop"></i>  Skills<span className="sr-only">(current)</span></Nav.Link>
+                        <Nav.Link className="nav-item nav-link" href={ resume }><i className="fas fa-file-alt" id="file"></i>  Resume</Nav.Link>
                     </Nav>
 
                 </Navbar.Collapse>

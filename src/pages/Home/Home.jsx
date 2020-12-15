@@ -1,12 +1,14 @@
 import React from "react";
 import profilePic from "../../assets/profileimg.JPG"
+import PageTitle from "../../components/PageTitle/PageTitle.jsx";
 import "./Home.css";
 
 const Home = (props) => {
     return (
-        <main className="container-fluid d-flex">
-            <div className="row pb-5">
-                <h1 className="page-title col-lg-12 font-weight-bold">About</h1>
+        <main className="container-fluid justify-content-start d-block">
+            <div className="row pl-3 pb-5">
+                {/* <h1 className="page-title col-lg-12 font-weight-bold">About</h1> */}
+                <PageTitle />
                 <div className="col-md-12">
                     <div className="profileIMG float-left p-1 pt-2 pr-2"><img className="homeIMG img-fluid rounded" src={profilePic}
                         alt="Nikolas"></img></div>

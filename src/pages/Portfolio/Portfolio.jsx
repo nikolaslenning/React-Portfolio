@@ -5,6 +5,7 @@ import emotePic from "../../assets/emote.png"
 import budgetPic from "../../assets/budgetTracker.png"
 import workoutPic from "../../assets/workoutTracker.png"
 import whatNextPic from "../../assets/whatnextscreenshot.png"
+import PageTitle from "../../components/PageTitle/PageTitle.jsx";
 import { Card, Footer } from "react-bootstrap";
 
 const Portfolio = (props) => {
@@ -51,6 +52,7 @@ const Portfolio = (props) => {
             {/* <div className="row pb-2">
                 <h1 className="col-lg-12 page-title pt-5">Portfolio</h1>
             </div> */}
+             <PageTitle/>
             <div className="row justify-content-between">
 
                 <div className="scene col-12 col-md-6 col-lg-4">

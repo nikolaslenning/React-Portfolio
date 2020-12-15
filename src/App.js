@@ -4,7 +4,7 @@ import Header from "./components/Header/Header";
 import PageTitle from "./components/PageTitle/PageTitle"
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home"
-import Skills from "./pages/Skills"
+import Skills from "./pages/Skills/Skills"
 import Portfolio from "./pages/Portfolio/Portfolio"
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <Header />
-        <PageTitle />
+        {/* <PageTitle /> */}
         <Switch>
           <Route exact path="/about" component={Home} />
           <Route exact path="/skills" component={Skills} />

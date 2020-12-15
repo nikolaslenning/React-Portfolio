@@ -1,5 +1,14 @@
 .page-title {
     color: black;
     font-weight: bold;
-  
+      
+}
+
+.container {
+    margin: 20px;
+}
+
+.titleDiv {
+   padding-left: 100px;
+   margin-left: 100px;
 }

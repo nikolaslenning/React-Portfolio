@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nikolaslenning.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,8 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
     "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-card-flip": "^1.0.11",
@@ -18,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -38,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

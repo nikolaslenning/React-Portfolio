@@ -5,6 +5,7 @@ import emotePic from "../../assets/emote.png"
 import budgetPic from "../../assets/budgetTracker.png"
 import workoutPic from "../../assets/workoutTracker.png"
 import whatNextPic from "../../assets/whatnextscreenshot.png"
+import burgerPic from "../../assets/burger.png"
 import PageTitle from "../../components/PageTitle/PageTitle.jsx";
 import { Card, Footer } from "react-bootstrap";
 
@@ -27,6 +28,7 @@ const Portfolio = (props) => {
     const [isFlipped2, setIsFlipped2] = useState(false)
     const [isFlipped3, setIsFlipped3] = useState(false)
     const [isFlipped4, setIsFlipped4] = useState(false)
+    const [isFlipped5, setIsFlipped5] = useState(false)
 
     const handleClick = (event) => {
         event.preventDefault()
@@ -44,6 +46,10 @@ const Portfolio = (props) => {
         event.preventDefault()
         setIsFlipped4(!isFlipped4)
     }
+    const handleClick5 = (event) => {
+        event.preventDefault()
+        setIsFlipped5(!isFlipped5)
+    }
 
     return (
 
@@ -52,7 +58,7 @@ const Portfolio = (props) => {
             {/* <div className="row pb-2">
                 <h1 className="col-lg-12 page-title pt-5">Portfolio</h1>
             </div> */}
-             <PageTitle/>
+            <PageTitle />
             <div className="row justify-content-between">
 
                 <div className="scene col-12 col-md-6 col-lg-4">
@@ -173,6 +179,44 @@ const Portfolio = (props) => {
                         <div className="card card-border" onClick={handleClick4}>
                             <div className="card-body card__face card__face--front">
                                 <img className="card-img border border-light" //style="max-width: 600px; max-height: 300px;"
+                                    src={burgerPic} alt="Burger Bonanaza app screenshot"></img>
+
+                                <h4 class="pt-2 font-weight-bold">Burger Bonanza</h4>
+                                <p class="card-text">Heroku web app that lets users input the names of burgers they'd like to eat. Every burger is stored in a database, whether devoured or not.</p>
+                                {/* <button onClick={handleClick}>Click to flip</button> */}
+                            </div>
+                        </div>
+
+                        <div className="card sceneBack card-border" onClick={handleClick4}>
+                            <h4 className="p-2">Accomplishments</h4>
+                            <ul>
+                                <li>Built with Node.js back-end</li>
+                                <li>Express web framework to structure and organize app</li>
+                                <li>Database managed using MySQL</li>
+                                <li>Utilized Handlebars template engine</li>
+                                <li>Model-View-Controller design pattern</li>
+                                <li>Bootstrap CSS front-end</li>
+
+                            </ul>
+                            <Card.Footer style={style} className=" cardfooter">
+                                <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                    href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a class="btn btn-floating rounded-circle btn-large waves-effect waves-light "
+                                    href="https://github.com/nikolaslenning/Burger-Bonanza" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                                {/* <button onClick={handleClick}>Click to flip</button> */}
+                            </Card.Footer>
+                        </div>
+                    </ReactCardFlip>
+                </div>
+
+                <div className="scene col-12 col-md-6 col-lg-4">
+                    {/* <div className="card card-border"> */}
+                    <ReactCardFlip isFlipped={isFlipped5} flipDirection="horizontal">
+                        <div className="card card-border" onClick={handleClick5}>
+                            <div className="card-body card__face card__face--front">
+                                <img className="card-img border border-light" //style="max-width: 600px; max-height: 300px;"
                                     src={whatNextPic} alt="WhatsNext app screenshot"></img>
 
                                 <h4 class="pt-2 font-weight-bold">WhatNext</h4>
@@ -182,7 +226,7 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick4}>
+                        <div className="card sceneBack card-border" onClick={handleClick5}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built with jQuery back-end</li>

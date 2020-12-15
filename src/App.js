@@ -10,20 +10,20 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
         {/* <PageTitle /> */}
         <Switch>
           <Route exact path="/about" component={Home} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Redirect from ="*" to="/about" />
+          <Redirect from="*" to="/about" />
         </Switch>
 
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 export default App;

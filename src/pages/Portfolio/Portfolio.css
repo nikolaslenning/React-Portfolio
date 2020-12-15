@@ -22,7 +22,9 @@
 
 
 .card-img {
-    max-height: 450px;
+    /* max-height: 350px; */
+    max-width: 600px;
+     max-height: 300px;
  }
 
  .card-border {

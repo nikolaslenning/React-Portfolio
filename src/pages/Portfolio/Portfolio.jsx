@@ -173,7 +173,7 @@ const Portfolio = (props) => {
                     </ReactCardFlip>
                 </div>
 
-                <div className="scene col-12 col-md-6 col-lg-4">
+                <div className="scene col-12 col-md-6 col-lg-4 mb-5">
                     {/* <div className="card card-border"> */}
                     <ReactCardFlip isFlipped={isFlipped4} flipDirection="horizontal">
                         <div className="card card-border" onClick={handleClick4}>
@@ -211,11 +211,11 @@ const Portfolio = (props) => {
                     </ReactCardFlip>
                 </div>
 
-                <div className="scene col-12 col-md-6 col-lg-4">
+                <div className="scene col-12 col-md-6 col-lg-4 mb-5">
                     {/* <div className="card card-border"> */}
                     <ReactCardFlip isFlipped={isFlipped5} flipDirection="horizontal">
                         <div className="card card-border" onClick={handleClick5}>
-                            <div className="card-body card__face card__face--front">
+                            <div className="pb-0 card-body card__face card__face--front">
                                 <img className="card-img border border-light" //style="max-width: 600px; max-height: 300px;"
                                     src={whatNextPic} alt="WhatsNext app screenshot"></img>
 

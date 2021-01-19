@@ -13,10 +13,12 @@ import sequelizeIMG from "../../assets/sequelize.png";
 import handlebarsIMG from "../../assets/handlebars.png";
 import githubIMG from "../../assets/github.png";
 import herokuIMG from "../../assets/heroku.png";
+import mongoDBIMG from "../../assets/mongoDB.png";
+import mongooseIMG from "../../assets/mongoose.jpg";
+import reactIMG from "../../assets/react.png";
+import reactBootstrapIMG from "../../assets/reactBootstrap.png";
 
-const Skills = (props) => {
-
-    
+const Skills = (props) => {    
 
     return (
         <form class="container-fluid w-75 pb-5">
@@ -25,17 +27,21 @@ const Skills = (props) => {
        
         <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
             <h4 class="card-header">HTML</h4>
-            <div class="card-body">
-              <div>
+            <div class="row card-body">
+              <div class="col-sm-4">
                 <img id="html-img"alt="HTML5 logo" src={htmlIMG}></img>
                 <p id="img-text" class="text-center">HTML5</p>
+              </div>
+              <div class="col-sm-4">
+                <img id="html-img"alt="HTML5 logo" src={reactIMG}></img>
+                <p id="img-text" class="text-center">JSX</p>
               </div>
               
             </div>
         </div>
 
         <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
-            <h4 class="card-header">CSS</h4>
+            <h4 class="card-header">CSS3</h4>
             <div class="row card-body">
               <div class="col-sm-4">
                 <img id="html-img"alt="CSS3 logo" src={cssIMG}></img>
@@ -45,12 +51,20 @@ const Skills = (props) => {
                 <img id="html-img"alt="CSS3 logo" src={bootstrapIMG}></img>
                 <p id="img-text" class="text-center">Bootstrap</p>
               </div>              
+              <div class="col-sm-4">
+                <img id="html-img"alt="CSS3 logo" src={reactBootstrapIMG}></img>
+                <p id="img-text" class="text-center">React-Bootstrap</p>
+              </div>              
             </div>
         </div>
 
         <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
             <h4 class="card-header">Javascript</h4>
             <div class="row card-body">
+              <div class="col-sm-4" >
+                <img id="html-img"alt="Node logo" src={reactIMG}></img>
+                <p id="img-text" class="text-center">React</p>
+              </div>              
               <div class="col-sm-4" >
                 <img id="html-img"alt="Javascript logo" src={jsIMG}></img>
                 <p id="img-text" class="text-center">Javascript</p>
@@ -84,6 +98,14 @@ const Skills = (props) => {
               <div class="col-sm-4" >
                 <img id="html-img"alt="Handlebars logo" src={handlebarsIMG}></img>
                 <p id="img-text" class="text-center">Handlebars</p>
+              </div>              
+              <div class="col-sm-4" >
+                <img id="html-img"alt="mongoDB logo" src={mongoDBIMG}></img>
+                <p id="img-text" class="text-center">mongoDB</p>
+              </div>              
+              <div class="col-sm-4" >
+                <img id="html-img"alt="Mongoose logo" src={mongooseIMG}></img>
+                <p id="img-text" class="text-center">Mongoose</p>
               </div>              
             </div>
         </div>

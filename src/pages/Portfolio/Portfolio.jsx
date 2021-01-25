@@ -10,7 +10,7 @@ import directoryPic from "../../assets/empDir.png"
 import bookSearchPic from "../../assets/bookSearch.png"
 import vetPic from "../../assets/getPetVet.png"
 import PageTitle from "../../components/PageTitle/PageTitle.jsx";
-import { Card, Footer } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Portfolio = (props) => {
 
@@ -106,10 +106,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/GetPetVet" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/GetPetVet" target="_blank" rel="noreferrer" ><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://evening-stream-63366.herokuapp.com/" target="_blank"><i
+                                    href="https://evening-stream-63366.herokuapp.com/" target="_blank" rel="noreferrer" ><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -146,10 +146,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Google-Books-Search-React" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/Google-Books-Search-React" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://fathomless-shelf-32899.herokuapp.com/" target="_blank"><i
+                                    href="https://fathomless-shelf-32899.herokuapp.com/" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -183,10 +183,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://nikolaslenning.github.io/React-Employee-Directory/" target="_blank"><i
+                                    href="https://nikolaslenning.github.io/React-Employee-Directory/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/React-Employee-Directory" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/React-Employee-Directory" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -222,10 +222,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://intense-chamber-80785.herokuapp.com" target="_blank"><i
+                                    href="https://intense-chamber-80785.herokuapp.com" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Grocery-Guys" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/Grocery-Guys" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -257,10 +257,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://sheltered-river-76743.herokuapp.com/" target="_blank"><i
+                                    href="https://sheltered-river-76743.herokuapp.com/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Budget-Anytime-PWA" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/Budget-Anytime-PWA" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -295,10 +295,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://nameless-springs-49152.herokuapp.com/" target="_blank"><i
+                                    href="https://nameless-springs-49152.herokuapp.com/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Workout-Tracker" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/Workout-Tracker" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -333,10 +333,10 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank"><i
+                                    href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Burger-Bonanza" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/Burger-Bonanza" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
@@ -369,65 +369,18 @@ const Portfolio = (props) => {
                             </ul>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large card-links"
-                                    href="https://nikolaslenning.github.io/WhatsNext/" target="_blank"><i
+                                    href="https://nikolaslenning.github.io/WhatsNext/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
                                 <a className="btn btn-floating rounded-circle btn-large card-links"
-                                    href="https://github.com/nikolaslenning/WhatsNext" target="_blank"><i
+                                    href="https://github.com/nikolaslenning/WhatsNext" target="_blank" rel="noreferrer"><i
                                         className="fab fa-github"></i></a>
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
                         </div>
                     </ReactCardFlip>
                 </div>
-
-
             </div>
-
-
-
-
-            {/* </div> */}
-
-
-            {/* <div className="row justify-content-between">
-
-                <div className="scene col-12 col-md-6 col-lg-4">
-                    <div className="card card-border">
-                        <div className="card-body card__face card__face--front">
-                            <img className="card-img border border-light" //style="max-width: 600px; max-height: 300px;"
-                                src={emotePic} alt="Emote app screenshot"></img>
-
-                            <h4 className="pt-2 font-weight-bold">Emote</h4>
-                            <p className="card-text">Heroku web app that returns numerical data identifying the socially-perceived emotions found within the image. This data response can assist users with Autism Spectrum Disorder to better understand and interpret facial emotions.</p>
-                        </div>
-
-                        <div className="card__face card__face--back">
-                            <h4 className="p-2">Accomplishments</h4>
-                            <ul>
-                                <li>Built with Node.js back-end</li>
-                                <li>Express web framework to structure and organize app</li>
-                                <li>MySQL backed Database with a Sequelize ORM</li>
-                                <li>Utilized Handlebars template engine</li>
-                                <li>Integrated Imgur and Microsoft Face API</li>
-                                <li>Model-View-Controller design pattern</li>
-                                <li>Bootstrap CSS front-end</li>
-
-                            </ul>
-                            <div className="card-links card-footer fixed-bottom">
-                                <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://intense-chamber-80785.herokuapp.com" target="_blank"><i
-                                        className="fas fa-external-link-alt"></i></a>
-                                <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
-                                    href="https://github.com/nikolaslenning/Grocery-Guys" target="_blank"><i
-                                        className="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </section>
-
-
     )
 }
 

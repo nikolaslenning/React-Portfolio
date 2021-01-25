@@ -21,105 +21,105 @@ import reactBootstrapIMG from "../../assets/reactBootstrap.png";
 const Skills = (props) => {    
 
     return (
-        <form class="container-fluid w-75 pb-5">
+        <form className="container-fluid w-75 pb-5">
           <PageTitle/>
-        {/* <h1 class="page-title font-weight-bold">Skills</h1> */}
+        {/* <h1 className="page-title font-weight-bold">Skills</h1> */}
        
-        <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
-            <h4 class="card-header">HTML</h4>
-            <div class="row card-body">
-              <div class="col-sm-4">
+        <div className="skillsCard col-sm-4 card bg-light mb-3 card-border" >
+            <h4 className="card-header">HTML</h4>
+            <div className="row card-body">
+              <div className="col-sm-4">
                 <img id="html-img"alt="HTML5 logo" src={htmlIMG}></img>
-                <p id="img-text" class="text-center">HTML5</p>
+                <p id="img-text" className="text-center">HTML5</p>
               </div>
-              <div class="col-sm-4">
+              <div className="col-sm-4">
                 <img id="html-img"alt="HTML5 logo" src={reactIMG}></img>
-                <p id="img-text" class="text-center">JSX</p>
+                <p id="img-text" className="text-center">JSX</p>
               </div>
               
             </div>
         </div>
 
-        <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
-            <h4 class="card-header">CSS3</h4>
-            <div class="row card-body">
-              <div class="col-sm-4">
+        <div className="skillsCard col-sm-4 card bg-light mb-3 card-border" >
+            <h4 className="card-header">CSS3</h4>
+            <div className="row card-body">
+              <div className="col-sm-4">
                 <img id="html-img"alt="CSS3 logo" src={cssIMG}></img>
-                <p id="img-text" class="text-center">CSS3</p>
+                <p id="img-text" className="text-center">CSS3</p>
               </div>
-              <div class="col-sm-4">
+              <div className="col-sm-4">
                 <img id="html-img"alt="CSS3 logo" src={bootstrapIMG}></img>
-                <p id="img-text" class="text-center">Bootstrap</p>
+                <p id="img-text" className="text-center">Bootstrap</p>
               </div>              
-              <div class="col-sm-4">
+              <div className="col-sm-4">
                 <img id="html-img"alt="CSS3 logo" src={reactBootstrapIMG}></img>
-                <p id="img-text" class="text-center">React-Bootstrap</p>
+                <p id="img-text" className="text-center">React-Bootstrap</p>
               </div>              
             </div>
         </div>
 
-        <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
-            <h4 class="card-header">Javascript</h4>
-            <div class="row card-body">
-              <div class="col-sm-4" >
+        <div className="skillsCard col-sm-4 card bg-light mb-3 card-border" >
+            <h4 className="card-header">Javascript</h4>
+            <div className="row card-body">
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Node logo" src={reactIMG}></img>
-                <p id="img-text" class="text-center">React</p>
+                <p id="img-text" className="text-center">React</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Javascript logo" src={jsIMG}></img>
-                <p id="img-text" class="text-center">Javascript</p>
+                <p id="img-text" className="text-center">Javascript</p>
               </div>
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="JQuery logo" src={jqueryIMG}></img>
-                <p id="img-text" class="text-center">jQuery</p>
+                <p id="img-text" className="text-center">jQuery</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Node logo" src={nodeIMG}></img>
-                <p id="img-text" class="text-center">Node</p>
+                <p id="img-text" className="text-center">Node</p>
               </div>              
             </div>
         </div>
 
-        <div class="skillsCard col-sm-4 card bg-light mb-3 card-border" >
-            <h4 class="card-header">Back-End</h4>
-            <div class="row card-body">
-              <div class="col-sm-4" >
+        <div className="skillsCard col-sm-4 card bg-light mb-3 card-border" >
+            <h4 className="card-header">Back-End</h4>
+            <div className="row card-body">
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Express.js logo" src={expressIMG}></img>
-                <p id="img-text" class="text-center">Express.js</p>
+                <p id="img-text" className="text-center">Express.js</p>
               </div>
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="MySQL logo" src={mysqlIMG}></img>
-                <p id="img-text" class="text-center">MySQL</p>
+                <p id="img-text" className="text-center">MySQL</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="sequelize logo" src={sequelizeIMG}></img>
-                <p id="img-text" class="text-center">Sequelize</p>
+                <p id="img-text" className="text-center">Sequelize</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Handlebars logo" src={handlebarsIMG}></img>
-                <p id="img-text" class="text-center">Handlebars</p>
+                <p id="img-text" className="text-center">Handlebars</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="mongoDB logo" src={mongoDBIMG}></img>
-                <p id="img-text" class="text-center">mongoDB</p>
+                <p id="img-text" className="text-center">mongoDB</p>
               </div>              
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Mongoose logo" src={mongooseIMG}></img>
-                <p id="img-text" class="text-center">Mongoose</p>
+                <p id="img-text" className="text-center">Mongoose</p>
               </div>              
             </div>
         </div>
 
-        <div class="skillsCard col-sm-4 card bg-light card-border mb-5" >
-            <h4 class="card-header">Other</h4>
-            <div class="row card-body">
-              <div class="col-sm-4" >
+        <div className="skillsCard col-sm-4 card bg-light card-border mb-5" >
+            <h4 className="card-header">Other</h4>
+            <div className="row card-body">
+              <div className="col-sm-4" >
                 <img id="html-img"alt="GitHub logo" src={githubIMG}></img>
-                <p id="img-text" class="text-center">GitHub</p>
+                <p id="img-text" className="text-center">GitHub</p>
               </div>
-              <div class="col-sm-4" >
+              <div className="col-sm-4" >
                 <img id="html-img"alt="Heroku logo" src={herokuIMG}></img>
-                <p id="img-text" class="text-center">Heroku</p>
+                <p id="img-text" className="text-center">Heroku</p>
               </div>              
                          
             </div>

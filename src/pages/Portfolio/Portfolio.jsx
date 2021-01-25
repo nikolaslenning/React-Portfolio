@@ -10,7 +10,7 @@ import directoryPic from "../../assets/empDir.png"
 import bookSearchPic from "../../assets/bookSearch.png"
 import vetPic from "../../assets/getPetVet.png"
 import PageTitle from "../../components/PageTitle/PageTitle.jsx";
-import { Card, Footer } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 const Portfolio = (props) => {
 

@@ -16,27 +16,7 @@ const Home = (props) => {
                     <p className="pull-left p-1 col-12 col-md-9">My Higher Education was acquired at the University of Utah,
                     where I recieved a Bachelors of Science degree in Psychology as well as a certificate in Full-Stack web development. While attending school I managed to support myself through the illustrious job of bartender, so you know I can mix you up a drink when the workday ends! And when not in the pursuit of knowledge I find myself looking for any excuse to do something bike related. Generally, I'm drawn to the call of the dirt jumps, but I don't discrimate against classic road cycling or anything motor driven. 
                 </p>
-                    {/* <div className="pull-left pl-0 p-1">
-                        <div className="text-center rounded-0">
-                            <ul className="social-icons">
-                                <p className="social-links">
-                                    <a href="mailto:nikolaslenning@gmail.com?subject = Feedback&body = Message">
-                                        <i className="icon fas fa-envelope text-dark"></i>
-                                    </a>
-                                </p>
-                                <p className="social-links">
-                                    <a target="blank" href="https://github.com/nikolaslenning"><i
-                                        className="icon fab fa-github text-dark"></i>
-                                    </a>
-                                </p>
-                                <p className="social-links">
-                                    <a target="blank" href="https://www.linkedin.com/in/nikolas-lenning-8908311b0/"><i
-                                        className="icon fab fa-linkedin text-dark"></i>
-                                    </a>
-                                </p>
-                            </ul>
-                        </div>
-                    </div> */}
+                    
                 </div>
             </div>
         </main >

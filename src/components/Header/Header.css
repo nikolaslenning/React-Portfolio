@@ -11,6 +11,10 @@ a:link {
     font-weight: bold;
 }
 
+.nav-item {
+    color: black;
+}
+
 #briefcase {
     color: saddlebrown
 }
@@ -27,3 +31,18 @@ a:link {
     color: rebeccapurple
 }
 
+#close {
+    color: red;
+}
+
+#menuIcon {
+    width: 2.5rem;
+}
+
+#email {
+    color: orange;
+}
+
+#linkedIn {
+    color: blue;
+}

@@ -11,7 +11,7 @@ class Header extends Component {
         const path = this.props.location.pathname.slice(1)
         const pathname = path.charAt(0).toUpperCase() + path.slice(1)
         return (
-            <div className="titleDiv row pb-2">
+            <div className="titleDiv row pb-2 col-12">
                 <h1 className="col-lg-12 page-title pt-5">{pathname}</h1>
             </div>
         );

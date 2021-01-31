@@ -84,7 +84,7 @@ const Portfolio = (props) => {
                     <ReactCardFlip isFlipped={isFlipped8} flipDirection="horizontal">
                         <div className="card card-border" onClick={handleClick8}>
                             <div className="card-body card__face card__face--front">
-                                <img className="card-img border border-light" //style="max-width: 600px; max-height: 300px;"
+                                <img className="card-img border text-center border-light" //style="max-width: 600px; max-height: 300px;"
                                     src={vetPic} alt="Emote app screenshot"></img>
 
                                 <h4 className="pt-2 font-weight-bold">GetPetVet</h4>

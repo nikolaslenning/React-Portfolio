@@ -1,4 +1,6 @@
-
+p {
+    display: block;
+}
 .skillsCard {
     max-width: 48rem;
     background-color: white;
@@ -32,10 +34,13 @@
 }
 
 #img-text {
+    margin: auto;
     width: 100px;
+    text-align: center;
 }
 
 #html-img {
+    text-align: center;
     width: 90px;
     height: 90px;
 }

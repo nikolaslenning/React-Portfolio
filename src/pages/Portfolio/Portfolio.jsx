@@ -371,9 +371,9 @@ const Portfolio = (props) => {
                                 <a className="btn btn-floating rounded-circle btn-large card-links"
                                     href="https://nikolaslenning.github.io/WhatsNext/" target="_blank" rel="noreferrer"><i
                                         className="fas fa-external-link-alt"></i></a>
-                                <a className="btn btn-floating rounded-circle btn-large card-links"
+                                {/* <a className="btn btn-floating rounded-circle btn-large card-links"
                                     href="https://github.com/nikolaslenning/WhatsNext" target="_blank" rel="noreferrer"><i
-                                        className="fab fa-github"></i></a>
+                                        className="fab fa-github"></i></a> */}
                                 {/* <button onClick={handleClick}>Click to flip</button> */}
                             </Card.Footer>
                         </div>

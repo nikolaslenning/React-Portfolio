@@ -5,7 +5,7 @@ p {
     max-width: 48rem;
     background-color: white;
     padding: 0;
-    cursor: default;
+    cursor: default !important;
 }
 
 .card-body {
@@ -22,6 +22,10 @@ p {
     transform-style: preserve-3d;
     display: block;
     cursor: default;
+}
+
+.row {
+    cursor: default !important;
 }
 
 .card-header {

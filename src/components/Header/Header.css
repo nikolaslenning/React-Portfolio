@@ -1,6 +1,9 @@
 a:link {
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 
 .container {
     margin: 20px;
@@ -59,5 +62,5 @@ a:link {
 }
 
 #linkedIn {
-    color: blue;
+    color: rgb(6, 120, 158);
 }

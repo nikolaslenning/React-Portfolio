@@ -93,17 +93,19 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick8}>
-                            <h4 className="p-2">Accomplishments</h4>
-                            <ul>
-                                <li>Built using React.js with Node.js back-end</li>
-                                <li>Express web framework to structure and organize app</li>
-                                <li>MongoDB backed Database with a Mongoose ORM</li>
-                                <li>Application UI broken up into seperate React components</li>
-                                <li>React-Bootstrap CSS front-end</li>
-                                <li>Socket.io and Simple-Peer utilized for connecting users audio/video</li>
-                                <li>Travis CI and ESLint utilized for testing and error handling</li>
-                            </ul>
+                        <div className="card sceneBack card-border" >
+                            <div className="h-100" onClick={handleClick8}>
+                                <h4 className="p-2">Accomplishments</h4>
+                                <ul>
+                                    <li>Built using React.js with Node.js back-end</li>
+                                    <li>Express web framework to structure and organize app</li>
+                                    <li>MongoDB backed Database with a Mongoose ORM</li>
+                                    <li>Application UI broken up into seperate React components</li>
+                                    <li>React-Bootstrap CSS front-end</li>
+                                    <li>Socket.io and Simple-Peer utilized for connecting users audio/video</li>
+                                    <li>Travis CI and ESLint utilized for testing and error handling</li>
+                                </ul>
+                            </div>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://github.com/nikolaslenning/GetPetVet" target="_blank" rel="noreferrer" ><i
@@ -131,19 +133,21 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick7}>
-                            <h4 className="p-2">Accomplishments</h4>
-                            <ul>
-                                <li>Built using React.js</li>
-                                <li>Application UI broken up into seperate React components</li>
-                                <li>Utilizes React lifecycle methods to query/display books based on user searches</li>
-                                <li>Built with Node.js back-end</li>
-                                <li>Express web framework to structure and organize app</li>
-                                <li>MongoDB backed Database with a Mongoose ORM</li>
-                                <li>React-Bootstrap CSS front-end</li>
+                        <div className="card sceneBack card-border" >
+                            <div className="h-100" onClick={handleClick7}>
+                                <h4 className="p-2">Accomplishments</h4>
+                                <ul>
+                                    <li>Built using React.js</li>
+                                    <li>Application UI broken up into seperate React components</li>
+                                    <li>Utilizes React lifecycle methods to query/display books based on user searches</li>
+                                    <li>Built with Node.js back-end</li>
+                                    <li>Express web framework to structure and organize app</li>
+                                    <li>MongoDB backed Database with a Mongoose ORM</li>
+                                    <li>React-Bootstrap CSS front-end</li>
 
 
-                            </ul>
+                                </ul>
+                            </div>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://github.com/nikolaslenning/Google-Books-Search-React" target="_blank" rel="noreferrer"><i
@@ -171,7 +175,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick6}>
+                        <div className="card sceneBack card-border" >
+                        <div className="h-100" onClick={handleClick6}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built using React.js</li>
@@ -181,6 +186,7 @@ const Portfolio = (props) => {
 
 
                             </ul>
+                            </div>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://nikolaslenning.github.io/React-Employee-Directory/" target="_blank" rel="noreferrer"><i
@@ -208,7 +214,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick}>
+                        <div className="card sceneBack card-border">
+                        <div className="h-100" onClick={handleClick}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built with Node.js back-end</li>
@@ -220,6 +227,7 @@ const Portfolio = (props) => {
                                 <li>Bootstrap CSS front-end</li>
 
                             </ul>
+                            </div>
                             <Card.Footer style={style} className="card-links fixed-bottom cardfooter ">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://intense-chamber-80785.herokuapp.com" target="_blank" rel="noreferrer"><i
@@ -247,7 +255,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick2}>
+                        <div className="card sceneBack card-border" >
+                        <div className="h-100" onClick={handleClick2}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Downloadable progressive web application</li>
@@ -255,6 +264,7 @@ const Portfolio = (props) => {
                                 <li>Express web framework to structure and organize app</li>
                                 <li>Model-View-Controller design pattern</li>
                             </ul>
+                            </div>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://sheltered-river-76743.herokuapp.com/" target="_blank" rel="noreferrer"><i
@@ -282,7 +292,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick3}>
+                        <div className="card sceneBack card-border">
+                        <div className="h-100" onClick={handleClick3}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built with Node.js back-end</li>
@@ -293,6 +304,7 @@ const Portfolio = (props) => {
                                 <li>Bootstrap CSS front-end</li>
 
                             </ul>
+                            </div>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://nameless-springs-49152.herokuapp.com/" target="_blank" rel="noreferrer"><i
@@ -320,7 +332,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick4}>
+                        <div className="card sceneBack card-border">
+                        <div className="h-100" onClick={handleClick4}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built with Node.js back-end</li>
@@ -331,6 +344,7 @@ const Portfolio = (props) => {
                                 <li>Bootstrap CSS front-end</li>
 
                             </ul>
+                            </div>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large waves-effect waves-light "
                                     href="https://whispering-anchorage-18340.herokuapp.com/" target="_blank" rel="noreferrer"><i
@@ -359,7 +373,8 @@ const Portfolio = (props) => {
                             </div>
                         </div>
 
-                        <div className="card sceneBack card-border" onClick={handleClick5}>
+                        <div className="card sceneBack card-border">
+                        <div className="h-100" onClick={handleClick5}>
                             <h4 className="p-2">Accomplishments</h4>
                             <ul>
                                 <li>Built with jQuery back-end</li>
@@ -367,6 +382,7 @@ const Portfolio = (props) => {
                                 <li>Client-side rendering (AJAX)</li>
                                 <li>Integrated uNoGs & OMDBi APIs</li>
                             </ul>
+                            </div>
                             <Card.Footer style={style} className=" cardfooter">
                                 <a className="btn btn-floating rounded-circle btn-large card-links"
                                     href="https://nikolaslenning.github.io/WhatsNext/" target="_blank" rel="noreferrer"><i

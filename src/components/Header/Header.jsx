@@ -9,7 +9,7 @@ function Header() {
     const { toggleMenu } = useContext(MenuContext);
   
     return (
-        <div className="container-fluid ml-0 pl-0">
+        <div className="container-fluid ml-0 pl-0 pr-0">
 
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand>

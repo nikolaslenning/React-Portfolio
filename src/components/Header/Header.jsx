@@ -9,15 +9,15 @@ function Header() {
     const { toggleMenu } = useContext(MenuContext);
   
     return (
-        <div className="container-fluid ml-0 pl-0 pr-0">
+        <div className="headerDIV container-fluid ml-0 pl-0 pr-0">
 
-            <Navbar bg="light" expand="lg">
+            <Navbar  expand="lg">
                 <Navbar.Brand>
                     <Link to="/about"><h1 className="nameLink">Nikolas Lenning</h1></Link>
-                    <h4>Full Stack Developer</h4>
+                    <h4 className="text-muted headerTitle">Full Stack Developer</h4>
                 </Navbar.Brand>
                
-                <button onClick={toggleMenu} className="primary-button ml-auto float-right">
+                <button onClick={toggleMenu} className="menuButton ml-auto float-right">
                     <img id="menuIcon" alt="menuIcon" src={menuIcon}></img>
                 </button>
                 

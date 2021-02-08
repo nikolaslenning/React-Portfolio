@@ -9,7 +9,7 @@ import NavMenu from "./components/NavMenu/NavMenu";
 
 ReactDOM.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <MenuProvider MenuComponent={NavMenu} animation="slide" direction="right">
+    <MenuProvider className="NavMenu" MenuComponent={NavMenu} animation="slide" direction="right">
       <App />
     </MenuProvider>
   </BrowserRouter>,

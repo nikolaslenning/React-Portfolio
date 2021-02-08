@@ -6,13 +6,28 @@ a:link {
     margin: 20px;
 }
 
+.headerTitle {
+    text-shadow: white 1px 1px;
+    /* color: white; */
+}
+
+.menuButton {
+   background-color:  teal;
+}
+
+.headerDIV {
+    background-color: rgb(30, 39, 39);
+    border-bottom: 5px solid teal;
+}
+
 .nameLink {
     color: teal;
     font-weight: bold;
+    text-shadow: white 1px 1px;
 }
 
 .nav-item {
-    color: black;
+    color: white;
 }
 
 #briefcase {

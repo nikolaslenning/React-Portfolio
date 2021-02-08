@@ -19,7 +19,7 @@ function NavMenu() {
             <Nav.Link rel="noreferrer" target="_blank" className="nav-item nav-link" href="https://www.linkedin.com/in/nikolas-lenning-8908311b0/"><i className="fab fa-linkedin" id="linkedIn"></i>  LinkedIn</Nav.Link>
             <Nav.Link className="nav-item nav-link" href="mailto:nikolaslenning@gmail.com?subject = Feedback&body = Message"><i className="fas fa-envelope" id="email"></i>  Email</Nav.Link>
           
-            <hr />
+            <hr className="hr"/>
             <Nav.Link onClick={closeMenu} className="nav-item nav-link">
                 <i className="far fa-window-close" id="close"></i>  Close Menu
             </Nav.Link>
